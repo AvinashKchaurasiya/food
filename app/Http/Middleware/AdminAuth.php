@@ -21,6 +21,6 @@ class AdminAuth
             return $next($request);
         }
         Auth::logout();
-        return redirect('admin');
+        return redirect('login');
     }
 }
